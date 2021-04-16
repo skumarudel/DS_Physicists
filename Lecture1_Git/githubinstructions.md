@@ -42,4 +42,5 @@ git status
 ```
 git commit testfile.txt -m "trying to commit my first file"
 ```
+**Here are the list of above steps you will see on your terminal**
 ![Alt text](imgs1/local_git.png)
