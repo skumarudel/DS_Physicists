@@ -141,7 +141,7 @@ git remote -v
 ``` 
 
 ### Add a new Branch
-Now is the time to add some changes to the repository. To do thar, first create a new branch independent of the master branch
+Now is the time to add some changes to the repository. To do that, first create a new branch independent of the master branch
 
 ```
 git checkout -b feature_first
@@ -159,7 +159,7 @@ git push origin feature_first
 ```
 
 ### Pull request
-At last, we will ask for a "pull request" where we will request the maintainers of the original repository to have a look at our modifcations. To open a pull request do the following steps:
+At last, we will ask for a "pull request" where we will request the maintainers of the original repository to have a look at our modifcations. To open a pull request, do the following steps:
 * Go to your online account and navigate to the branch. Click the main button on left side, a drop down menu will appear. Select the branch you want to merge with original repository.  
 
 ![Alt text](imgs1/gotobranch.png) 
