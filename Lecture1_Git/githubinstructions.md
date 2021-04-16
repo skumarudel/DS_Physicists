@@ -51,3 +51,20 @@ git commit testfile.txt -m "trying to commit my first file"
 ![Alt text](imgs1/new_repository.png)
 ![Alt text](imgs1/create_repository.png)
 ![Alt text](imgs1/setup_repository.png) 
+
+**The final step is to push your changes or files from local repository to your new remote repository
+```
+git remote add origin https://github.com/skumarudel/git_ace.git
+git remote -v
+git push -u origin master
+```
+**Modify the file and push the changes to remote repository**
+
+```
+echo "First line of code" >> testfile.txt
+git status
+git add testfile.txt
+git commit testfile.txt -m "Modify the file"
+git push
+```
+Go online to your repository and see if the changes you made appear or not?
