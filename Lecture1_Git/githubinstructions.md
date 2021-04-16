@@ -160,15 +160,18 @@ git push origin feature_first
 
 ### Pull request
 At last, we will ask for a "pull request" where we will request the maintainers of the original repository to have a look at our modifcations. To open a pull request do the following steps:
-* Go to your online account and navigate to the branch you want to merge with original repository  
-
-
+* Go to your online account and navigate to the branch. Click the main button on left side, a drop down menu will appear. Select the branch you want to merge with original repository.  
 
 ![Alt text](imgs1/gotobranch.png) 
+
+* Click on the pull request button (blue color in the image below on right side)
+
 ![Alt text](imgs1/pullrequest.png) 
+
+* Click on the create pull request button in green (lower right)
 ![Alt text](imgs1/createpullrequest.png) 
 
-* Once the pull request is created, the mainter will accept your request (of course after looking at your modifications)
 
+* Once the pull request is created, the mainter will accept your request (of course after looking at your modifications)
 ![Alt text](imgs1/pullrequest_maintainer.png) 
 ![Alt text](imgs1/acceptrequest.png) 
