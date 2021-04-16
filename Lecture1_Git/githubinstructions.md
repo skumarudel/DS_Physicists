@@ -109,3 +109,18 @@ git add testfile.txt
 git commit -m "merge conflict solve"
 git push
 ```
+
+## Forking, Branching and pulling
+###These concepts are important if you want to collaborate on a exisitng open source git repo
+
+**Forking**
+lets say there is open source git repository already existed. You want to add some new features in the repository.
+**Steps:**
+* Go to the url of the repository https://github.com/sonu-del/testing_forking
+* Click on the fork button in the right corner (see image below)
+* Clone the repository locally
+```
+git clone https://github.com/skumarudel/testing_forking.git
+``` 
+![Alt text](imgs1/forking.png) 
+![Alt text](imgs1/cloning.png) 
