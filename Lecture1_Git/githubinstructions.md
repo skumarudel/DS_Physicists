@@ -175,7 +175,7 @@ At last, we will ask for a "pull request" where we will request the maintainers 
 * Once the pull request is created, the mainter will accept your request (of course after looking at your modifications)
 ![Alt text](imgs1/pullrequest_maintainer.png) 
 
-* If everythign is okay with your code, he will click on "Merge pull request" in green to accept all the changes you did in his original repository
+* If everything is okay with your code, the maintainer of the original repository will click on "Merge pull request" in green to accept all the changes you did in his original repository
 ![Alt text](imgs1/acceptrequest.png) 
 
 ### updating your fork and delete the unnecessary branch
@@ -192,4 +192,4 @@ git branch -d feature_first
 git push origin -d feature_first
 ```
 
-======================================================================================================
+*End of Story, alteast for the now*=================================================================================
