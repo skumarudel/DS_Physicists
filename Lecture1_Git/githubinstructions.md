@@ -68,3 +68,44 @@ git commit testfile.txt -m "Modify the file"
 git push
 ```
 Go online to your repository and see if the changes you made appear or not?
+
+## Merge problem
+**Lets say for some reasons you update your file online (see below)**
+![Alt text](imgs1/modify_file_online.png)
+
+**Then you go to your local repository and do another modification in the same file**
+```
+echo "Can I even do a change" >> testfile.txt 
+git commit testfile.txt -m "Modify file again"
+git push
+```
+When you do the above steps you should see an error like following
+To https://github.com/skumarudel/git_ace.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/skumarudel/git_ace.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details. 
+
+**Fixing the above issue**
+You need to pull the changes first
+```
+git pull
+```
+
+Edit the file using your favorite editor (I love emacs)
+```
+emacs testfile.txt
+```
+Remove the lines in file starting with >>>, <<<, and ==, and then modify the file the way you want it ot look like
+
+![Alt text](imgs1/emacs_modify.png) 
+
+Now add the file again and commit (Note commit has to be global to to merging)
+```
+git add testfile.txt
+git commit -m "merge conflict solve"
+git push
+```
