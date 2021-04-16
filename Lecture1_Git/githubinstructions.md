@@ -114,7 +114,7 @@ git push
 ### These concepts are important if you want to collaborate on a exisitng open source git repo
 
 **Forking**
-lets say there is open source git repository already existed. You want to add some new features in the repository.
+lets say there is open source git repository already existed. You want to add some new features in the repository. Fork is just an independent copy of the orignal repository and by forking and cloning you can change whatever you want to change without affeting the original repository
 
 **Steps:**
 
@@ -126,3 +126,16 @@ git clone https://github.com/skumarudel/testing_forking.git
 ``` 
 ![Alt text](imgs1/forking.png) 
 ![Alt text](imgs1/cloning.png) 
+
+**Add a remote**
+You are not the only one who wants to contribute. There may be 10 more people who are working simultaneously on the same project. Therefore to do changes with the most upto date repository, you need to add pointing to the original repository.
+
+```
+git remote add upsream https://github.com/sonu-del/testing_forking.git
+```
+
+you can verify now that you have two remotes, **origin** and **upstream**
+
+```
+git remote -v
+``` 
