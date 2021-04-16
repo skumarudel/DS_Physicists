@@ -113,7 +113,7 @@ git push
 ## Forking, Branching and pulling
 ### These concepts are important if you want to collaborate on a exisitng open source git repo
 
-**Forking**
+###Forking a repository (an open source one)
 lets say there is open source git repository already existed. You want to add some new features in the repository. Fork is just an independent copy of the orignal repository and by forking and cloning you can change whatever you want to change without affeting the original repository
 
 **Steps:**
