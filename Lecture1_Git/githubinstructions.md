@@ -42,4 +42,4 @@ git status
 ```
 git commit testfile.txt -m "trying to commit my first file"
 ```
-![Alt text](imgs_1/local_git.png)
+![Alt text](imgs1/local_git.png)
