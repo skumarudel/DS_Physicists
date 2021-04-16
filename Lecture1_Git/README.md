@@ -1,6 +1,6 @@
 # Intorduction to Github
 
-* Topics covered *
+*Topics covered *
 
 - Create github account and installing git locally
 - Creating repositories locally
