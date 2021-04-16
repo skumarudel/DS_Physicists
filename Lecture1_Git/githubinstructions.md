@@ -192,4 +192,4 @@ git branch -d feature_first
 git push origin -d feature_first
 ```
 
-*End of Story, alteast for the now*=================================================================================
+**End of Story, alteast for the now**============================================
