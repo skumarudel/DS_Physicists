@@ -1,7 +1,7 @@
 # These instructions assumed that you have some knowledge of bash shell
 ## Create a github account online
 **Go to your browser of choice and type: https://github.com/join**
-![Alt text](imgs1/new_repository.png)
+![Alt text](imgs1/gitaccount.png)
 ## Installing git locally so that we can use it from command line
 If you are on mac (like me), you most probably have git already installed, if not please check the link below to see how to install git on different systems such as linux, mac and windows
 *https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
