@@ -44,3 +44,11 @@ git commit testfile.txt -m "trying to commit my first file"
 ```
 **Here are the list of above steps you will see on your terminal**
 ![Alt text](imgs1/local_git.png)
+
+## Go online and create a new repository with the same name as you create locally on your machine (name: git_ace)
+**Below are the steps to follow**
+
+![Alt text](imgs1/new_repository.png)
+![Alt text](imgs1/setup_repository.png)
+![Alt text](imgs1/create_repository.png)
+ 
