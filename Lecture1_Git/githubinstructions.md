@@ -1,6 +1,6 @@
 # These instructions assumed that you have some knowledge of bash shell
 ## Start with your bash shell
-* Create a directory *
+**Create a directory**
 ```
 mkdir git_ace
 ```
@@ -10,35 +10,35 @@ mkdir git_ace
 cd git_ace
 ```
 
-* Initiates a local git repository *
+**Initiates a local git repository **
 
 ```
 git init
 git status
 ```
 
-* Create your first file *
+**Create your first file**
 ```
 touch testfile.txt
 ```
-** Check if this file is there in the directory you are in **
+**Check if this file is there in the directory you are in**
 
 ```
 ls -l
 ```
-* Check if git know about it *
+**Check if git know about it**
 
 ```
 git status
 ```
 you might have noticed that git does not know about it
 
-* adding file to git *
+**adding file to git**
 ```
 git add testfile.txt
 git status
 ```
-* Committing file *
+**Committing file**
 ```
 git commit testfile.txt -m "trying to commit my first file"
 ```
