@@ -49,6 +49,5 @@ git commit testfile.txt -m "trying to commit my first file"
 **Below are the steps to follow**
 
 ![Alt text](imgs1/new_repository.png)
-![Alt text](imgs1/setup_repository.png)
 ![Alt text](imgs1/create_repository.png)
- 
+![Alt text](imgs1/setup_repository.png) 
