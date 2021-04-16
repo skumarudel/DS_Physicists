@@ -127,7 +127,7 @@ git clone https://github.com/skumarudel/testing_forking.git
 ![Alt text](imgs1/forking.png) 
 ![Alt text](imgs1/cloning.png) 
 
-**Add a remote**
+### Add a remote
 You are not the only one who wants to contribute. There may be 10 more people who are working simultaneously on the same project. Therefore to do changes with the most upto date repository, you need to add pointing to the original repository.
 
 ```
