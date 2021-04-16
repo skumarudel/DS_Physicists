@@ -131,7 +131,7 @@ git clone https://github.com/skumarudel/testing_forking.git
 You are not the only one who wants to contribute. There may be 10 more people who are working simultaneously on the same project. Therefore to do changes with the most upto date repository, you need to add pointing to the original repository.
 
 ```
-git remote add upsream https://github.com/sonu-del/testing_forking.git
+git remote add upstream https://github.com/sonu-del/testing_forking.git
 ```
 
 you can verify now that you have two remotes, **origin** and **upstream**
@@ -139,3 +139,36 @@ you can verify now that you have two remotes, **origin** and **upstream**
 ```
 git remote -v
 ``` 
+
+### Add a new Branch
+Now is the time to add some changes to the repository. To do thar, first create a new branch independent of the master branch
+
+```
+git checkout -b feature_first
+```
+
+Do changes in that branch, commit the changes in local branch and push the changes to your forked repository and check the status of changes.
+
+```
+touch plot.py
+echo "import matplotlib.pyplot as plt" >> plot.py
+
+git add .
+git commit -m "Adding a python library to use"
+git push origin feature_first
+```
+
+### Pull request
+At last, we will ask for a "pull request" where we will request the maintainers of the original repository to have a look at our modifcations. To open a pull request do the following steps:
+* Go to your online account and navigate to the branch you want to merge with original repository  
+
+
+
+![Alt text](imgs1/gotobranch.png) 
+![Alt text](imgs1/pullrequest.png) 
+![Alt text](imgs1/createpullrequest.png) 
+
+* Once the pull request is created, the mainter will accept your request (of course after looking at your modifications)
+
+![Alt text](imgs1/pullrequest_maintainer.png) 
+![Alt text](imgs1/acceptrequest.png) 
