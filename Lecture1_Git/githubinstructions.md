@@ -4,13 +4,13 @@
 ```
 mkdir git_ace
 ```
-** Get in the directory to start building your project**
+**Get in the directory to start building your project**
 
 ```
 cd git_ace
 ```
 
-**Initiates a local git repository **
+**Initiates a local git repository**
 
 ```
 git init

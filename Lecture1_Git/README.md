@@ -1,4 +1,4 @@
-# Intorduction to Github
+# Introduction to Github
 
 **Topics covered**
 
