@@ -7,6 +7,7 @@
 - Plotting and visualization
 - Introduction to Statistics and probability
 - Linear regression
+- Casual Inference
 - Logistics regression (In progress)
 - Decision Tree and ensemble learning (In progress)
 - Suppost vector machines (In progress)
