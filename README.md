@@ -7,6 +7,6 @@
 - Plotting and visualization
 - Introduction to Statistics and probability
 - Linear regression
-- Logistics regression
-- Decision Tree and ensemble learning
-- Suppost vector machines
+- Logistics regression (In progress)
+- Decision Tree and ensemble learning (In progress)
+- Suppost vector machines (In progress)
