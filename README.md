@@ -11,3 +11,4 @@
 - Logistics regression (In progress)
 - Decision Tree and ensemble learning (In progress)
 - Suppost vector machines (In progress)
+- Deep learning (In progress)
